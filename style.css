@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: "Open Sans", cursive;
+}
+
+.text {
+    color: #3d5afe;
+    text-align: center;
+}
+
+#gi {
+    width: 160px;
+}
+
+#About {
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+    text-align: center;
+    max-width: 200px
+}
+.img{
+    width: 500px;
+    height: 250px
+}
+#gimg{
+    width: 500px
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    left: 370px;
+    margin-top: 0px;
+    z-index: 10;
+    width: 100%;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-family: 'Open Sans', cursive;
+    font-size: 20px;
+    text-decoration-color: white;
+    text-decoration: none
+
+.links:hover {
+    
+}
