@@ -4,12 +4,19 @@ body {
 }
 
 .text {
-    color: #3d5afe;
+    color: cadetblue;
     text-align: center;
 }
 
 #gi {
     width: 160px;
+}
+#gi:hover {
+    width: 170;
+    height: auto;
+}
+#gi{
+    transition-duration: 0.2s;
 }
 
 #About {
@@ -25,6 +32,13 @@ p {
 .img {
     width: 500px;
     height: 250px
+}
+.img:hover {
+    width: 520px;
+    height: 270px
+}
+.img{
+    transition-duration: 0.3s;
 }
 
 #gimg {
@@ -55,6 +69,10 @@ p {
 
 .links:hover {
     background-color: #f0f0f0;
+    font-size: 21px;
+}
+.links{
+    transition-duration: 0.2s;
 }
 
 a {
@@ -106,19 +124,28 @@ a {
 }
 
 
+
 .rbutton {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+    background-color: cadetblue;
+    border-radius: 3px;
+    border-color: cadetblue;
+    border-style: none;
+    padding: 8px;
+    color: white;
+    font-size: 17px
 }
 
-.rbutton: hover {
+.rbutton:hover {
     background-color: whitesmoke;
+    border-color: none;
+    color: cadetblue;
+    font-size: 18px;
+}
+.rbutton{
+    transition-duration: 0.2s;
+}
+.banchor{
+    color: white;
 }
 
 #About {
