@@ -4,18 +4,20 @@ body {
 }
 
 .text {
-    color: cadetblue;
+    color: darkcyan;
     text-align: center;
 }
 
 #gi {
     width: 160px;
 }
+
 #gi:hover {
     width: 170;
     height: auto;
 }
-#gi{
+
+#gi {
     transition-duration: 0.2s;
 }
 
@@ -33,11 +35,13 @@ p {
     width: 500px;
     height: 250px
 }
+
 .img:hover {
     width: 520px;
     height: 270px
 }
-.img{
+
+.img {
     transition-duration: 0.3s;
 }
 
@@ -71,8 +75,16 @@ p {
     background-color: #f0f0f0;
     font-size: 21px;
 }
-.links{
+
+.links {
     transition-duration: 0.2s;
+}
+
+.line {
+    height: 7px;
+    width: 60px;
+    background-color: darkcyan;
+    margin: 10px auto;
 }
 
 a {
@@ -141,10 +153,12 @@ a {
     color: cadetblue;
     font-size: 18px;
 }
-.rbutton{
+
+.rbutton {
     transition-duration: 0.2s;
 }
-.banchor{
+
+.banchor {
     color: white;
 }
 
@@ -202,6 +216,21 @@ html {
     color: white;
 }
 
+.extextw {
+    color: lightgray;
+    margin-left: 45px;
+    margin-bottom: 5px;
+}
+
+#credits {
+    margin-bottom: -20px;
+}
+
+
 #whitehat {
     color: lightblue;
 }
+
+/*Other HTML file begins here*/
+
+
