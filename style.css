@@ -233,4 +233,17 @@ html {
 
 /*Other HTML file begins here*/
 
+#reviewseperator {
+    background-color: whitesmoke;
+}
 
+.reviews {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+#backbutton {
+    margin-top: 50px;
+}
